@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -28,4 +28,39 @@
         android:background="@android:color/darker_gray"
         android:layout_marginTop="90dp" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <EditText
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="130dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/penta_jina"
+        android:hint="First name"
+        />
+    <EditText
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/penta_simu"
+        android:hint="phone number"
+        android:digits="1,2,3,4,5,6,7,8,9,0,+"
+        />
+
+    <EditText
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/penta_siri"
+        android:hint="password"
+        />
+    <EditText
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/penta_nsiri"
+        android:hint="confirm password"
+        />
+
+</RelativeLayout>
