@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Wheelpick</string>
     <string name="register">register</string>
+    <string name="penta_join">penta_join</string>
 </resources>
