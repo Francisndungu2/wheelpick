@@ -15,7 +15,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         FindRestaurantsButton = (Button)findViewById(R.id.findRestaurantsButton);
-
+        FindRestaurantsButton.setOnClickListener(new View.OnClickListener() {
 
         });
     }
+}
