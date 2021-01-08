@@ -1,16 +1,20 @@
 package com.example.wheelpick;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
+import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
 public class about extends AppCompatActivity {
+    private Button backs;
+
 
     @Override
+
+
     protected void onCreate(Bundle savedInstanceState) {
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_about);
         Button backs = (Button) findViewById(R.id.backs);
@@ -32,3 +36,4 @@ public class about extends AppCompatActivity {
 
     }
 };
+
