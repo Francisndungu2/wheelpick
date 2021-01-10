@@ -9,8 +9,6 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
-
 public class form extends AppCompatActivity {
     private Button next;
 
@@ -29,7 +27,7 @@ public class form extends AppCompatActivity {
             public void onClick(View v) {
 
 
-                Intent intent = new Intent(form.this, about.class);
+                Intent intent = new Intent(form.this,about.class);
                 startActivity(intent);
 
             }
