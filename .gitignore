@@ -13,3 +13,11 @@
 .externalNativeBuild
 .cxx
 local.properties
+gradle.properties
+settings.gradle
+gradlew.bat
+gradlew
+gradle/
+.idea/
+
+git rm -r --cached

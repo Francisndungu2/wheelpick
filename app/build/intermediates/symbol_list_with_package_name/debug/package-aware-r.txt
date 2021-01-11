@@ -953,7 +953,6 @@ id penta_jina
 id penta_nsiri
 id penta_simu
 id penta_siri
-id penta_ujumbe
 id percent
 id pik_siri
 id pin
